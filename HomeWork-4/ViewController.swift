@@ -14,7 +14,7 @@ final class ViewController: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let profileVC = segue.destination as? ProfileViewController {
-            profileVC.userName = userNameTextField.text
+            profileVC.userName = (userNameTextField.text ?? "") + "!"
         }
     }
     
