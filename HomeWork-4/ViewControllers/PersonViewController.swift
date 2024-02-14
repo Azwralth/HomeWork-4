@@ -15,12 +15,13 @@ final class PersonViewController: UIViewController {
     @IBOutlet var jobLabel: UILabel!
     @IBOutlet var positionLabel: UILabel!
     
-    var user: User!
     var firstName: String!
     var lastName: String!
     var age: String!
     var job: String!
     var position: String!
+    
+    var user: User!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,9 +41,7 @@ final class PersonViewController: UIViewController {
         positionLabel.text = position
         positionLabel.textColor = .white
         
-        
-        navigationItem.title = "\(user.person.name) \(user.person.lastName)"
-        
+        setupNavigationButton()
         setBackgroundImage()
     }
     
@@ -51,5 +50,17 @@ final class PersonViewController: UIViewController {
             bioVC.descriptionText = user.person.description
             bioVC.user = user
         }
+    }
+    
+    private func setupNavigationButton() {
+        let backButton = UIBarButtonItem()
+        backButton.title = "\(user.person.name) \(user.person.lastName)"
+        backButton.tintColor = .white
+
+        navigationItem.backBarButtonItem = backButton
+        
+        navigationItem.title = "\(user.person.name) \(user.person.lastName)"
+        
+        navigationItem.rightBarButtonItem?.tintColor = .white
     }
 }

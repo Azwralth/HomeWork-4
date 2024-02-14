@@ -12,6 +12,7 @@ final class BioViewController: UIViewController {
     @IBOutlet var descriptionLabel: UILabel!
     
     var user: User!
+    
     var descriptionText: String!
     
     override func viewDidLoad() {
@@ -21,10 +22,7 @@ final class BioViewController: UIViewController {
         descriptionLabel.textColor = .white
         
         navigationItem.title = "\(user.person.name) \(user.person.lastName) Bio"
-        navigationItem.titleView?.tintColor = .white
-        navigationItem.backButtonTitle = "\(user.person.name) \(user.person.lastName)"
-
+        
         setBackgroundImage()
     }
-
 }
