@@ -22,6 +22,7 @@ final class BioViewController: UIViewController {
         
         navigationItem.title = "\(user.person.name) \(user.person.lastName) Bio"
         navigationItem.titleView?.tintColor = .white
+        navigationItem.backButtonTitle = "\(user.person.name) \(user.person.lastName)"
 
         setBackgroundImage()
     }
