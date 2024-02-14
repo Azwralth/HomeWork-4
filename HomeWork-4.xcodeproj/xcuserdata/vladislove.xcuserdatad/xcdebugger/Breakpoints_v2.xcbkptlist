@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "C5600BE1-3204-473E-B840-C978F3DCFF27"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "78CBBD58-6ED6-44E1-B9D2-35AE7BDBECC5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-4/ViewControllers/ProfileViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "HomeViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "78CBBD58-6ED6-44E1-B9D2-35AE7BDBECC5 - eb7a09a2878bf35c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HomeWork_4.ProfileViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; HomeWork_4.ProfileViewController"
+                  moduleName = "HomeWork-4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladislove/Desktop/Projects/SwiftBook/HomeWork-4/HomeWork-4/ViewControllers/ProfileViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "78CBBD58-6ED6-44E1-B9D2-35AE7BDBECC5 - d3886c2aa6cfc009"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HomeWork_4.ProfileViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; HomeWork_4.ProfileViewController"
+                  moduleName = "HomeWork-4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladislove/Desktop/Projects/SwiftBook/HomeWork-4/HomeWork-4/ViewControllers/ProfileViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "120">
+               </Location>
+               <Location
+                  uuid = "78CBBD58-6ED6-44E1-B9D2-35AE7BDBECC5 - 9f15efa699239a9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HomeWork_4.ProfileViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;HomeWork_4.ProfileViewController&gt;"
+                  moduleName = "HomeWork-4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladislove/Desktop/Projects/SwiftBook/HomeWork-4/HomeWork-4/ViewControllers/ProfileViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "78CBBD58-6ED6-44E1-B9D2-35AE7BDBECC5 - dc8c1f6a1a2a1e2e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HomeWork_4.ProfileViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;HomeWork_4.ProfileViewController&gt;"
+                  moduleName = "HomeWork-4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladislove/Desktop/Projects/SwiftBook/HomeWork-4/HomeWork-4/ViewControllers/ProfileViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "78CBBD58-6ED6-44E1-B9D2-35AE7BDBECC5 - df044ceb09a4fb1b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HomeWork_4.ProfileViewController.__deallocating_deinit"
+                  moduleName = "HomeWork-4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladislove/Desktop/Projects/SwiftBook/HomeWork-4/HomeWork-4/ViewControllers/ProfileViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C2C2B078-22D8-445B-B07D-6327289AD177"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-4/ViewControllers/ProfileViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "HomeViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
