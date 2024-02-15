@@ -41,7 +41,7 @@ final class PersonViewController: UIViewController {
         positionLabel.text = position
         positionLabel.textColor = .white
         
-        setupNavigationButton()
+        setupNavigation()
         setBackgroundImage()
     }
     
@@ -52,7 +52,7 @@ final class PersonViewController: UIViewController {
         }
     }
     
-    private func setupNavigationButton() {
+    private func setupNavigation() {
         let backButton = UIBarButtonItem()
         backButton.title = "\(user.person.name) \(user.person.lastName)"
         backButton.tintColor = .white

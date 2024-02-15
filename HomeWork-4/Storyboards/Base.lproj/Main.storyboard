@@ -269,7 +269,6 @@
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="R6n-2s-IPR"/>
                                     <constraint firstAttribute="height" constant="200" id="Xb5-CG-zLJ"/>
-                                    <constraint firstAttribute="width" secondItem="LyU-ag-D9t" secondAttribute="height" multiplier="1:1" id="hw3-Jq-o0O"/>
                                 </constraints>
                             </imageView>
                         </subviews>

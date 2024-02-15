@@ -14,12 +14,13 @@ final class HomeViewController: UIViewController {
     
     var login: String!
     var fullName: String!
+    var user: User!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         loginLabel.text = "Welcome, \(login ?? "")!"
-        userNameLabel.text = fullName
+        userNameLabel.text = "My name is \(user.person.name) \(user.person.lastName)"
         
         setBackgroundImage()
     }

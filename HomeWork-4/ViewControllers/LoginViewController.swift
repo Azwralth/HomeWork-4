@@ -25,7 +25,7 @@ final class LoginViewController: UIViewController {
         tabBar?.viewControllers?.forEach { viewController in
             if let homeVC = viewController as? HomeViewController {
                 homeVC.login = user.login
-                homeVC.fullName = "My name is \(user.person.name) \(user.person.lastName)"
+                homeVC.user = user
             } else if let navigationVC = viewController as? UINavigationController {
                 let profileVC = navigationVC.topViewController as? PersonViewController
                 profileVC?.firstName = user.person.name
@@ -34,10 +34,12 @@ final class LoginViewController: UIViewController {
                 profileVC?.job = user.person.job
                 profileVC?.position = user.person.position
                 profileVC?.user = user
+            } else if let bioVC = segue.destination as? BioViewController {
+                bioVC.descriptionText = user.person.description
+                bioVC.user = user
             }
         }
     }
-    
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesBegan(touches, with: event)
@@ -82,7 +84,7 @@ final class LoginViewController: UIViewController {
 }
 
 
-// MARK: Setup default background
+// MARK: - Setup default background
 
 extension UIViewController {
     func setBackgroundImage() {
