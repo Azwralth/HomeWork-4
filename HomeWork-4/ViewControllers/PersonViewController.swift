@@ -15,30 +15,24 @@ final class PersonViewController: UIViewController {
     @IBOutlet var jobLabel: UILabel!
     @IBOutlet var positionLabel: UILabel!
     
-    var firstName: String!
-    var lastName: String!
-    var age: String!
-    var job: String!
-    var position: String!
-    
     var user: User!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        firstNameLabel.text = firstName
+        firstNameLabel.text = user.person.name
         firstNameLabel.textColor = .white
         
-        lastNameLabel.text = lastName
+        lastNameLabel.text = user.person.lastName
         lastNameLabel.textColor = .white
         
-        ageLabel.text = age
+        ageLabel.text = user.person.age
         ageLabel.textColor = .white
         
-        jobLabel.text = job
+        jobLabel.text = user.person.job
         jobLabel.textColor = .white
         
-        positionLabel.text = position
+        positionLabel.text = user.person.position
         positionLabel.textColor = .white
         
         setupNavigation()
@@ -47,7 +41,6 @@ final class PersonViewController: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let bioVC = segue.destination as? BioViewController {
-            bioVC.descriptionText = user.person.description
             bioVC.user = user
         }
     }

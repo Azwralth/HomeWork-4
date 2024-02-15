@@ -24,19 +24,10 @@ final class LoginViewController: UIViewController {
         
         tabBar?.viewControllers?.forEach { viewController in
             if let homeVC = viewController as? HomeViewController {
-                homeVC.login = user.login
                 homeVC.user = user
             } else if let navigationVC = viewController as? UINavigationController {
                 let profileVC = navigationVC.topViewController as? PersonViewController
-                profileVC?.firstName = user.person.name
-                profileVC?.lastName = user.person.lastName
-                profileVC?.age = user.person.age
-                profileVC?.job = user.person.job
-                profileVC?.position = user.person.position
                 profileVC?.user = user
-            } else if let bioVC = segue.destination as? BioViewController {
-                bioVC.descriptionText = user.person.description
-                bioVC.user = user
             }
         }
     }

@@ -13,12 +13,10 @@ final class BioViewController: UIViewController {
     
     var user: User!
     
-    var descriptionText: String!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        descriptionLabel.text = descriptionText
+        descriptionLabel.text = user.person.description
         descriptionLabel.textColor = .white
         
         navigationItem.title = "\(user.person.name) \(user.person.lastName) Bio"
